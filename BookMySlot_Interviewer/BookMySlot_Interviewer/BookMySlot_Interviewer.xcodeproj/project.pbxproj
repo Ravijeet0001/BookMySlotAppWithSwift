@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84C937B52D6069A000526683 /* BookMySlot_InterviewerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C937B42D6069A000526683 /* BookMySlot_InterviewerApp.swift */; };
+		84C937B72D6069A000526683 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C937B62D6069A000526683 /* ContentView.swift */; };
+		84C937B92D6069A200526683 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C937B82D6069A200526683 /* Assets.xcassets */; };
+		84C937BC2D6069A200526683 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C937BB2D6069A200526683 /* Preview Assets.xcassets */; };
+		84C937BE2D6069A200526683 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C937BD2D6069A200526683 /* Persistence.swift */; };
+		84C937C12D6069A200526683 /* BookMySlot_Interviewer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84C937BF2D6069A200526683 /* BookMySlot_Interviewer.xcdatamodeld */; };
+		84C937CB2D6069A200526683 /* BookMySlot_InterviewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C937CA2D6069A200526683 /* BookMySlot_InterviewerTests.swift */; };
+		84C937D52D6069A300526683 /* BookMySlot_InterviewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C937D42D6069A300526683 /* BookMySlot_InterviewerUITests.swift */; };
+		84C937D72D6069A300526683 /* BookMySlot_InterviewerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C937D62D6069A300526683 /* BookMySlot_InterviewerUITestsLaunchTests.swift */; };
+		84C937E82D606FB700526683 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C937E72D606FB700526683 /* LoginView.swift */; };
+		84C937EC2D6070B800526683 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C937EB2D6070B800526683 /* RegisterView.swift */; };
+		84C937F02D60766B00526683 /* DashBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C937EF2D60766B00526683 /* DashBoardView.swift */; };
+		84C937F22D60930500526683 /* AddSlotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C937F12D60930500526683 /* AddSlotView.swift */; };
+		84C937F42D60933F00526683 /* EditSlotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C937F32D60933F00526683 /* EditSlotView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84C937C72D6069A200526683 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84C937A92D6069A000526683 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84C937B02D6069A000526683;
+			remoteInfo = BookMySlot_Interviewer;
+		};
+		84C937D12D6069A300526683 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84C937A92D6069A000526683 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84C937B02D6069A000526683;
+			remoteInfo = BookMySlot_Interviewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84C937B12D6069A000526683 /* BookMySlot_Interviewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookMySlot_Interviewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C937B42D6069A000526683 /* BookMySlot_InterviewerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMySlot_InterviewerApp.swift; sourceTree = "<group>"; };
+		84C937B62D6069A000526683 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84C937B82D6069A200526683 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84C937BB2D6069A200526683 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84C937BD2D6069A200526683 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		84C937C02D6069A200526683 /* BookMySlot_Interviewer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BookMySlot_Interviewer.xcdatamodel; sourceTree = "<group>"; };
+		84C937C62D6069A200526683 /* BookMySlot_InterviewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookMySlot_InterviewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C937CA2D6069A200526683 /* BookMySlot_InterviewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMySlot_InterviewerTests.swift; sourceTree = "<group>"; };
+		84C937D02D6069A300526683 /* BookMySlot_InterviewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookMySlot_InterviewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C937D42D6069A300526683 /* BookMySlot_InterviewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMySlot_InterviewerUITests.swift; sourceTree = "<group>"; };
+		84C937D62D6069A300526683 /* BookMySlot_InterviewerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMySlot_InterviewerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84C937E72D606FB700526683 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		84C937EB2D6070B800526683 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		84C937EF2D60766B00526683 /* DashBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardView.swift; sourceTree = "<group>"; };
+		84C937F12D60930500526683 /* AddSlotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSlotView.swift; sourceTree = "<group>"; };
+		84C937F32D60933F00526683 /* EditSlotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditSlotView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84C937AE2D6069A000526683 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C937C32D6069A200526683 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C937CD2D6069A300526683 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84C937A82D6069A000526683 = {
+			isa = PBXGroup;
+			children = (
+				84C937B32D6069A000526683 /* BookMySlot_Interviewer */,
+				84C937C92D6069A200526683 /* BookMySlot_InterviewerTests */,
+				84C937D32D6069A300526683 /* BookMySlot_InterviewerUITests */,
+				84C937B22D6069A000526683 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84C937B22D6069A000526683 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84C937B12D6069A000526683 /* BookMySlot_Interviewer.app */,
+				84C937C62D6069A200526683 /* BookMySlot_InterviewerTests.xctest */,
+				84C937D02D6069A300526683 /* BookMySlot_InterviewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84C937B32D6069A000526683 /* BookMySlot_Interviewer */ = {
+			isa = PBXGroup;
+			children = (
+				84C937B42D6069A000526683 /* BookMySlot_InterviewerApp.swift */,
+				84C937F32D60933F00526683 /* EditSlotView.swift */,
+				84C937F12D60930500526683 /* AddSlotView.swift */,
+				84C937EF2D60766B00526683 /* DashBoardView.swift */,
+				84C937EB2D6070B800526683 /* RegisterView.swift */,
+				84C937E72D606FB700526683 /* LoginView.swift */,
+				84C937B62D6069A000526683 /* ContentView.swift */,
+				84C937B82D6069A200526683 /* Assets.xcassets */,
+				84C937BD2D6069A200526683 /* Persistence.swift */,
+				84C937BF2D6069A200526683 /* BookMySlot_Interviewer.xcdatamodeld */,
+				84C937BA2D6069A200526683 /* Preview Content */,
+			);
+			path = BookMySlot_Interviewer;
+			sourceTree = "<group>";
+		};
+		84C937BA2D6069A200526683 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				84C937BB2D6069A200526683 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84C937C92D6069A200526683 /* BookMySlot_InterviewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				84C937CA2D6069A200526683 /* BookMySlot_InterviewerTests.swift */,
+			);
+			path = BookMySlot_InterviewerTests;
+			sourceTree = "<group>";
+		};
+		84C937D32D6069A300526683 /* BookMySlot_InterviewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84C937D42D6069A300526683 /* BookMySlot_InterviewerUITests.swift */,
+				84C937D62D6069A300526683 /* BookMySlot_InterviewerUITestsLaunchTests.swift */,
+			);
+			path = BookMySlot_InterviewerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84C937B02D6069A000526683 /* BookMySlot_Interviewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C937DA2D6069A300526683 /* Build configuration list for PBXNativeTarget "BookMySlot_Interviewer" */;
+			buildPhases = (
+				84C937AD2D6069A000526683 /* Sources */,
+				84C937AE2D6069A000526683 /* Frameworks */,
+				84C937AF2D6069A000526683 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookMySlot_Interviewer;
+			productName = BookMySlot_Interviewer;
+			productReference = 84C937B12D6069A000526683 /* BookMySlot_Interviewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84C937C52D6069A200526683 /* BookMySlot_InterviewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C937DD2D6069A300526683 /* Build configuration list for PBXNativeTarget "BookMySlot_InterviewerTests" */;
+			buildPhases = (
+				84C937C22D6069A200526683 /* Sources */,
+				84C937C32D6069A200526683 /* Frameworks */,
+				84C937C42D6069A200526683 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84C937C82D6069A200526683 /* PBXTargetDependency */,
+			);
+			name = BookMySlot_InterviewerTests;
+			productName = BookMySlot_InterviewerTests;
+			productReference = 84C937C62D6069A200526683 /* BookMySlot_InterviewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84C937CF2D6069A300526683 /* BookMySlot_InterviewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C937E02D6069A300526683 /* Build configuration list for PBXNativeTarget "BookMySlot_InterviewerUITests" */;
+			buildPhases = (
+				84C937CC2D6069A300526683 /* Sources */,
+				84C937CD2D6069A300526683 /* Frameworks */,
+				84C937CE2D6069A300526683 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84C937D22D6069A300526683 /* PBXTargetDependency */,
+			);
+			name = BookMySlot_InterviewerUITests;
+			productName = BookMySlot_InterviewerUITests;
+			productReference = 84C937D02D6069A300526683 /* BookMySlot_InterviewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84C937A92D6069A000526683 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					84C937B02D6069A000526683 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					84C937C52D6069A200526683 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 84C937B02D6069A000526683;
+					};
+					84C937CF2D6069A300526683 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 84C937B02D6069A000526683;
+					};
+				};
+			};
+			buildConfigurationList = 84C937AC2D6069A000526683 /* Build configuration list for PBXProject "BookMySlot_Interviewer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84C937A82D6069A000526683;
+			productRefGroup = 84C937B22D6069A000526683 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84C937B02D6069A000526683 /* BookMySlot_Interviewer */,
+				84C937C52D6069A200526683 /* BookMySlot_InterviewerTests */,
+				84C937CF2D6069A300526683 /* BookMySlot_InterviewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84C937AF2D6069A000526683 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C937BC2D6069A200526683 /* Preview Assets.xcassets in Resources */,
+				84C937B92D6069A200526683 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C937C42D6069A200526683 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C937CE2D6069A300526683 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84C937AD2D6069A000526683 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C937BE2D6069A200526683 /* Persistence.swift in Sources */,
+				84C937F02D60766B00526683 /* DashBoardView.swift in Sources */,
+				84C937F22D60930500526683 /* AddSlotView.swift in Sources */,
+				84C937C12D6069A200526683 /* BookMySlot_Interviewer.xcdatamodeld in Sources */,
+				84C937B72D6069A000526683 /* ContentView.swift in Sources */,
+				84C937EC2D6070B800526683 /* RegisterView.swift in Sources */,
+				84C937E82D606FB700526683 /* LoginView.swift in Sources */,
+				84C937F42D60933F00526683 /* EditSlotView.swift in Sources */,
+				84C937B52D6069A000526683 /* BookMySlot_InterviewerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C937C22D6069A200526683 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C937CB2D6069A200526683 /* BookMySlot_InterviewerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C937CC2D6069A300526683 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C937D72D6069A300526683 /* BookMySlot_InterviewerUITestsLaunchTests.swift in Sources */,
+				84C937D52D6069A300526683 /* BookMySlot_InterviewerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84C937C82D6069A200526683 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84C937B02D6069A000526683 /* BookMySlot_Interviewer */;
+			targetProxy = 84C937C72D6069A200526683 /* PBXContainerItemProxy */;
+		};
+		84C937D22D6069A300526683 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84C937B02D6069A000526683 /* BookMySlot_Interviewer */;
+			targetProxy = 84C937D12D6069A300526683 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		84C937D82D6069A300526683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84C937D92D6069A300526683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84C937DB2D6069A300526683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BookMySlot_Interviewer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.sampleapp.BookMySlot-Interviewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84C937DC2D6069A300526683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BookMySlot_Interviewer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.sampleapp.BookMySlot-Interviewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84C937DE2D6069A300526683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.sampleapp.BookMySlot-InterviewerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookMySlot_Interviewer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BookMySlot_Interviewer";
+			};
+			name = Debug;
+		};
+		84C937DF2D6069A300526683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.sampleapp.BookMySlot-InterviewerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookMySlot_Interviewer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BookMySlot_Interviewer";
+			};
+			name = Release;
+		};
+		84C937E12D6069A300526683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.sampleapp.BookMySlot-InterviewerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BookMySlot_Interviewer;
+			};
+			name = Debug;
+		};
+		84C937E22D6069A300526683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.sampleapp.BookMySlot-InterviewerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BookMySlot_Interviewer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84C937AC2D6069A000526683 /* Build configuration list for PBXProject "BookMySlot_Interviewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C937D82D6069A300526683 /* Debug */,
+				84C937D92D6069A300526683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C937DA2D6069A300526683 /* Build configuration list for PBXNativeTarget "BookMySlot_Interviewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C937DB2D6069A300526683 /* Debug */,
+				84C937DC2D6069A300526683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C937DD2D6069A300526683 /* Build configuration list for PBXNativeTarget "BookMySlot_InterviewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C937DE2D6069A300526683 /* Debug */,
+				84C937DF2D6069A300526683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C937E02D6069A300526683 /* Build configuration list for PBXNativeTarget "BookMySlot_InterviewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C937E12D6069A300526683 /* Debug */,
+				84C937E22D6069A300526683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84C937BF2D6069A200526683 /* BookMySlot_Interviewer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84C937C02D6069A200526683 /* BookMySlot_Interviewer.xcdatamodel */,
+			);
+			currentVersion = 84C937C02D6069A200526683 /* BookMySlot_Interviewer.xcdatamodel */;
+			path = BookMySlot_Interviewer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84C937A92D6069A000526683 /* Project object */;
+}
